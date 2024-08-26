@@ -200,7 +200,16 @@
         text-decoration: none;
       }
 
-     
+      .weather{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        color:#0e0f31;
+        text-align:center;
+      }
+    
     
     
     
