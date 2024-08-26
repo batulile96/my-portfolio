@@ -14,12 +14,16 @@
         align-items: center;
         max-width: 1000px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 15px 20px;
        box-sizing: border-box;
         background-color: rgba(226, 229, 229, 0.854);
-        
+        @media (max-width: 600px) {
+            nav ul {
+              flex-direction: column; /* Stack items vertically */
+              align-items: center; /* Center the items */
+            }
     }
-    
+}
     nav .logo img {
         height: 50px;
     }
@@ -122,6 +126,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
         
+        
     }
     
     .contact-info {
@@ -129,7 +134,7 @@
         justify-content: space-between;
         background-color: #2e2d2d;
         color: #fff;
-        padding: 20px;
+        padding: 20px 25px;
         border-radius: 10px;
         
     }
