@@ -211,6 +211,14 @@
         text-align:center;
         align-items: center;
       }
+     
+      @media(min-width: 768px) {
+          section {
+              padding: 40px;
+          
+
+          }
+      }
     
     
     
