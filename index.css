@@ -40,7 +40,7 @@
     }
    
     nav a:hover{
-        color: rgb(244, 177, 177);
+        color: rgb(78, 183, 225);
      }
     body {
         font-family: Arial, sans-serif;
@@ -225,7 +225,7 @@
         justify-content: center;
         width: 50%;
         background-color: whitesmoke;
-        color:#0e0f31;
+        color:#011112;
       }
      
     
