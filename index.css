@@ -202,13 +202,14 @@
 
       .weather{
         position: fixed;
-        left: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 100%;
+        right: 0;
+        margin-top: 40px;
+      
+        width: 50%;
         background-color: whitesmoke;
         color:#0e0f31;
         text-align:center;
+        align-items: center;
       }
     
     
