@@ -15,7 +15,7 @@
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 20px;
-        box-shadow: 0px 0px 10px;
+       box-sizing: border-box;
         background-color: rgba(226, 229, 229, 0.854);
         
     }
@@ -55,7 +55,7 @@
         margin: auto;
         background-color: #fff;
         padding: 20px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+       box-sizing: border-box;
     }
     
     
@@ -95,6 +95,20 @@
     }
     .about-me{
         margin-top: 20px;
+    }
+    button {
+        background-color:gray;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color:black;
     }
     .about {
         margin: 20px 0;
@@ -144,6 +158,8 @@
             background-color: #E0E0E0;
             border-radius: 10px;
     }
+
+    /*Education page styling starts here*/
     .education{
         margin: 20px 0;
         padding: 20px;
