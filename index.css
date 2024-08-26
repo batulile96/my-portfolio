@@ -1,0 +1,216 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-shadow: 0px 0px 10px;
+        background-color: rgba(226, 229, 229, 0.854);
+    }
+    
+    nav .logo img {
+        height: 50px;
+    }
+    
+    nav a {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav a {
+        margin-left: 20px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+   
+    nav a:hover{
+        color: rgb(244, 177, 177);
+     }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #F5F5F5;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header {
+        text-align: center;
+        margin-bottom: 30px;
+       
+    }
+    .header img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .header h1 {
+        margin: 10px 0;
+    }
+    
+    .header a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    h4{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+      
+
+    
+    .header a i {
+        margin-right: 5px;
+    }
+    .about-me{
+        margin-top: 20px;
+    }
+    .about {
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #E0E0E0;
+        border-radius: 10px;
+    }
+    
+    .personal-details {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        background-color: #2e2d2d;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    
+    .contact-info div {
+        text-align: center;
+    }
+    
+    .contact-info div i {
+        margin-right: 5px;
+        color: #585755; /* Gold color for icons */
+    }
+    .EXPERIENCE{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20
+    }
+    h5{
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px 
+    }
+    .company{
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #E0E0E0;
+            border-radius: 10px;
+    }
+    .education{
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f6f4f4;
+        border-radius: 10px;
+    }
+    .EDUCATION{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .REFERENCE{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .reference{
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f6f4f4;
+        border-radius: 10px;
+    }
+    .SKILLS{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+      .skills{
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f6f4f4;
+        border-radius: 10px;
+      } 
+      .LANGUAGE{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .language{
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f6f4f4;
+        border-radius: 10px;
+        text-decoration: none;
+      }
+      .Projects{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .projects{
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f6f4f4;
+        border-radius: 10px;
+        text-decoration: none;
+      }
+
+     
+    
+    
+    
+
+    
+    
+
+  
+
+    
+        
+    
+    
