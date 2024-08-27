@@ -176,7 +176,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .REFERENCE{
+     {
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -222,6 +222,42 @@
         border-radius: 10px;
         text-decoration: none;
       }
+      #experience {
+        margin: 20px 0;
+    }
+    
+    .job {
+        margin-bottom: 20px;
+    }
+    
+    .job h3 {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+    
+    .job p {
+        margin: 5px 0;
+    }
+    
+    .date {
+        color: #666;
+        font-style: italic;
+    }
+    
+    ul {
+        list-style:none;
+        margin-left: 20px;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f6f4f4;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    
+    ul li {
+        margin-bottom: 5px;
+    }
+    
 
     
     
