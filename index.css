@@ -223,15 +223,33 @@
         text-decoration: none;
       }
 
-      .weather{
-        position:fixed;
-        right: 0;
-        margin-top: 40px;
-        justify-content: center;
-        width: 50%;
-        background-color: whitesmoke;
-        color:#011112;
-      }
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .weather {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+    
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    a:hover {
+        background-color: #0056b3;
+    }
+    
      
     
     
