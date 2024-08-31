@@ -257,6 +257,67 @@
     ul li {
         margin-bottom: 5px;
     }
+    .containerr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .content {
+        display: flex;
+        background-color: #1f2a37;
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 900px;
+        width: 100%;
+    }
+    .image-section img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .text-section {
+        padding: 30px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-section h1 {
+        color: #4A90E2;
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+    .experience {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .experience-number {
+        background-color: #4A90E2;
+        color: #1f2a37;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 5px 12px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .experience-content {
+        color: #d1d1d1;
+    }
+
+    .experience-content h2 {
+        margin: 0;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .experience-content p {
+        margin: 0;
+    }
     
 
     
