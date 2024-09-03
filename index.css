@@ -75,30 +75,8 @@
     
     
     
-    .header {
-        text-align: center;
-        margin-bottom: 30px;
-       
-    }
-    .header img {
-        width: 150px;
-        height: 150px;
-    }
+   
     
-    .header h1 {
-        margin: 10px 0;
-      
-        
-    }
-    
-    .header a {
-        color: #333;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 10px;
-        text-align: center;
-    }
     .button {
         background-color:gray;
         color: white;
