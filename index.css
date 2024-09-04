@@ -205,7 +205,8 @@
         display: flex;
         justify-content: center;
         padding: 40px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
+       
     }
 
     .contents {
@@ -215,6 +216,7 @@
         overflow: hidden;
         width: 100%;
         max-width: 1200px;
+        margin-bottom: 30px;
         
     }
     .image-section {
@@ -243,10 +245,11 @@
     .experience {
         display: flex;
         position: relative;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         padding-left: 50px;
         justify-content: center;
         max-width: 1200px;
+        margin-bottom: 30px;
         
     }
 
@@ -312,7 +315,9 @@
     width: 80%; /* Adjust the width of the tabs section */
     margin-right: 20px; /* Space between tabs and content */
     align-self: start;
-    margin-top: 100px;
+    margin-top: 60px;
+    justify-content: space-between;
+
  }
  
  .tab {
@@ -324,20 +329,10 @@
     border-top: none; /* Remove the top border except for the first tab */
     
  } 
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
 
 .containerr {
     background: url('22RMA2_044~2.jpg') no-repeat center center/cover;
-    height: 500px;
+    height: 515px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,6 +346,7 @@ body, html {
     width: 100%;
     padding: 40px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .overlay {
@@ -361,9 +357,10 @@ body, html {
     max-width: 1200px;
     width: 100%;
     background: rgba(73, 73, 73, 0.7); /* Dark overlay */
-    height: 600px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    height: 515px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
     
 
 }
@@ -425,20 +422,6 @@ body, html {
 
 }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.menu li a {
-   
-    text-decoration: none;
-    padding: 10px;
-    font-size: 16px;
-}
-
-
 /* Logo styling */
 nav .logo img {
     width: 150px;
@@ -463,6 +446,34 @@ nav .logo img {
         background-color: #333;
         display: none;
         text-align: center;
+        @media (max-width: 768px) {
+            nav {
+              display: block;
+              position: relative;
+            }
+            nav ul {
+              display: none;
+            }
+            nav ul.active {
+              display: block;
+            }
+            nav .hamburger-menu {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              cursor: pointer;
+            }
+          }
+          
+          .hamburger-menu {
+            display: none;
+          }
+          
+          @media (max-width: 768px) {
+            .hamburger-menu {
+              display: block;
+            }
+          
     }
 
     .menu li {
