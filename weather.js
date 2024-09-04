@@ -66,3 +66,8 @@ function reverseGeocode(latitude, longitude) {
 }
 
 getWeather();
+
+// Toggle menu on click
+document.querySelector('.menu-icon').addEventListener('click', function() {
+    document.querySelector('.menu').classList.toggle('menu-active');
+});
