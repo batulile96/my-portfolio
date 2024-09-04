@@ -361,14 +361,14 @@ body, html {
     max-width: 1200px;
     width: 100%;
     background: rgba(73, 73, 73, 0.7); /* Dark overlay */
-    height: 500px;
+    height: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
     
 
 }
 .overlay h1 {
-    color: #007bff;
+    color: #ebf8f8;
     font-size: 3rem;
     margin-bottom: 20px;
 }
@@ -386,7 +386,7 @@ body, html {
     gap: 20px;
 }
 .about-me button{
-    color: #007bff;
+    color: #5a5959;
     font-size: 1.2rem;
     margin-top: 40px;
     padding: 15px 30px;
@@ -396,7 +396,7 @@ body, html {
 
 
 .btn {
-    background-color: #007bff;
+    background-color: #2b2b2c;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -567,7 +567,57 @@ nav .logo img {
         font-size: 1.75rem;
     }
 }
-
+footer {
+    background-color: #f7f1f1;
+    color: #1e1d1d;
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 300px;
+  }
+  
+  .footer-content {padding: 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-content li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-content a {
+    color: #161616;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    color: #212020;
+  }
+  
+  h3{
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .reference-list {
+    margin-top: 20px;
+  }
+  
+  .reference-list li {
+    margin-bottom: 10px;
+  }
+  
 
 
  
