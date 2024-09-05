@@ -245,11 +245,11 @@
     .experience {
         display: flex;
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         padding-left: 50px;
         justify-content: center;
         max-width: 1200px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         
     }
 
@@ -262,6 +262,8 @@
         font-size: 20px;
         font-weight: bold;
         padding: 10px 15px;
+
+        
         border-radius: 50%;
         text-align: center;
     }
@@ -315,8 +317,8 @@
     width: 80%; /* Adjust the width of the tabs section */
     margin-right: 20px; /* Space between tabs and content */
     align-self: start;
-    margin-top: 60px;
-    justify-content: space-between;
+     justify-content: space-between;
+     margin-top: 100px;
 
  }
  
@@ -329,6 +331,16 @@
     border-top: none; /* Remove the top border except for the first tab */
     
  } 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
 
 .containerr {
     background: url('22RMA2_044~2.jpg') no-repeat center center/cover;
@@ -422,6 +434,20 @@
 
 }
 
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+   
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
 /* Logo styling */
 nav .logo img {
     width: 150px;
@@ -446,34 +472,6 @@ nav .logo img {
         background-color: #333;
         display: none;
         text-align: center;
-        @media (max-width: 768px) {
-            nav {
-              display: block;
-              position: relative;
-            }
-            nav ul {
-              display: none;
-            }
-            nav ul.active {
-              display: block;
-            }
-            nav .hamburger-menu {
-              position: absolute;
-              top: 20px;
-              right: 20px;
-              cursor: pointer;
-            }
-          }
-          
-          .hamburger-menu {
-            display: none;
-          }
-          
-          @media (max-width: 768px) {
-            .hamburger-menu {
-              display: block;
-            }
-          
     }
 
     .menu li {
@@ -629,6 +627,24 @@ footer {
     margin-bottom: 10px;
   }
   
+  @media only screen and (max-width: 600px) {
+    .contact-section {
+        padding: 10px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .icon {
+        margin-bottom: 5px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+}
 
 
  
