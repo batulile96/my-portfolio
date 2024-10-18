@@ -1,39 +1,43 @@
-
 function getWeather() {
     let temperature = document.getElementById("temperature");
     let description = document.getElementById("description");
     let location = document.getElementById("location");
-
+  
     let api = "https://api.openweathermap.org/data/2.5/weather";
     let apiKey = "f146799a557e8ab658304c1b30cc3cfd";
-
+  
     location.innerHTML = "Locating...";
-
+  
     navigator.geolocation.getCurrentPosition(success, error);
-
+  
     function success(position) {
-        let latitude = position.coords.latitude;
-        let longitude = position.coords.longitude;
-
-        let url = `${api}?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
-
-        fetch(url)
-            .then(response => response.json())
-            .then(data => {
-                console.log(data);
-                let temp = data.main.temp;
-                temperature.innerHTML = temp + "° C";
-                
-                location.innerHTML = `${data.name} (${latitude}°, ${longitude}°)`;
-                description.innerHTML = data.weather[0].main;
-
-                // Call the geocoding function after getting the weather
-                reverseGeocode(latitude, longitude);
-            });
+      latitude = position.coords.latitude;
+      longitude = position.coords.longitude;
+  
+      let url =
+        api +
+        "?lat=" +
+        latitude +
+        "&lon=" +
+        longitude +
+        "&appid=" +
+        apiKey +
+        "&units=metric";
+  
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          console.log(data);
+          let temp = data.main.temp;
+          temperature.innerHTML = temp + "° C";
+          location.innerHTML =
+            data.name + " (" + latitude + "°, " + longitude + "°)";
+          description.innerHTML = data.weather[0].main;
+        });
     }
-
+  
     function error() {
-        location.innerHTML = "Unable to retrieve your location";
+      location.innerHTML = "Unable to retrieve your location";
     }
 }
 
@@ -72,19 +76,3 @@ getWeather();
 document.querySelector('.menu-icon').addEventListener('click', function() {
     document.querySelector('.menu').classList.toggle('menu-active');
 });
-
-const navbarMenu = document.querySelector('#navbar-menu');
-const navbarLinksContainer = navbarMenu.querySelector('.navbar-links');
-
-navbarLinksContainer.addEventListener('click', (e) => e.stopPropagation());
-navbarMenu.addEventListener('click', toggleNavbarVisibility);
-const navbarToggle = navbar.querySelector('#navbar-toggle');
-let isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
-
-const toggleNavbarVisibility = () => {
-  isNavbarExpanded = !isNavbarExpanded;
-  navbarToggle.setAttribute('aria-expanded', isNavbarExpanded);
-};
-
-navbarToggle.addEventListener('click', toggleNavbarVisibility);
-AIzaSyAbqj-IIN3jLBT_J9pZOQcIKbxJhacgtJc
